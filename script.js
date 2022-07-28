@@ -3,8 +3,6 @@
 var generateBtn = document.querySelector("#generate");
 // numbers
 var numbers = '0123456789'.split("");
-// var numbers = [1,2,3];
-
 // special characters
 // var specialCharacters =
 
