@@ -1,11 +1,15 @@
 // Assignment Code
-//storing all characters in variables.
+// storing all characters in variables.
 
 // numbers
 // var numbers = [1,2,3];
 
 // special characters
 // var specialCharacters =
+
+// lowercase letters
+
+// uppercase letters
 
 
 var generateBtn = document.querySelector("#generate");
