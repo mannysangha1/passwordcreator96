@@ -28,6 +28,13 @@ function generatePassword() {
 
 // use numbers
 
+// use special characters
+
+//use for loop
+
+// use math random
+
+
 
 // Write password to the #password input
 function writePassword() {
