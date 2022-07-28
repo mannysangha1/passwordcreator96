@@ -4,15 +4,18 @@ var generateBtn = document.querySelector("#generate");
 // numbers
 var numbers = '0123456789'.split("");
 // special characters
-// var specialCharacters =
-
+var special = '!$%^&*()-=+[]{};#:@~,./<>?'.split("");
 // lowercase letters
-
+var lower = 'abcdefghijklmnopqrstuvwxyz'.split("");
 // uppercase letters
+var upper = 'ABCDEFGHIJKLMNOPQRSTUWXYZ'.split("");
+// choices
+var choices = [];
 
-
+// Generate Password Function
 function generatePassword() {
 // ask for number of characters
+numberofCharacters = prompt ()
 }
 // check if it is valid
 
