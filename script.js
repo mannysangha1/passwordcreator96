@@ -15,17 +15,19 @@ var choices = [];
 // Generate Password Function
 function generatePassword() {
 // ask for number of characters
-numberofCharacters = prompt("How many characters do you want your password to be? Minimun 8 Maxium 42");
+numberofCharacters = prompt("How many characters do you want your password to be? Minimun 8 Maxium 142");
 // check if it is valid
 if (isNaN(numberofCharacters)===true){
-  
-}
+  alert("You must enter a numeric value")
+} else if (numberofCharacters < 8 || numberofCharacters > 142) {
+  alert("You must enter a numeric value between 8 and 142")
+} else{}
 // confirm it
 
 // use if true
 
 // lower case letters
-
+useLowerCaseLetters = confirm
 // use uppercase letters
 
 // use numbers
