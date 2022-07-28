@@ -15,10 +15,11 @@ var choices = [];
 // Generate Password Function
 function generatePassword() {
 // ask for number of characters
-numberofCharacters = prompt ()
-}
+numberofCharacters = prompt("How many characters do you want your password to be? Minimun 8 Maxium 42");
 // check if it is valid
-
+if (isNaN(numberofCharacters)===true){
+  
+}
 // confirm it
 
 // use if true
@@ -31,10 +32,10 @@ numberofCharacters = prompt ()
 
 // use special characters
 
-//use for loop
+// use for loop
 
 // use math random
-
+}
 
 
 // Write password to the #password input
