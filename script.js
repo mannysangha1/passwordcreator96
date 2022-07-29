@@ -46,10 +46,14 @@ choices = choices.concat(upper)
 }
 };
 // use for loop
-
 // use math random
+var newPassword = "";
+for(let i=0;i<numberofCharacters;i++){
+  char=choices[Math.floor(Math.random()*choices.length)]
+  newPassword += char;
 }
-
+return newPassword
+};
 
 // Write password to the #password input
 function writePassword() {
@@ -61,4 +65,4 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword)
