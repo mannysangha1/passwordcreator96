@@ -26,21 +26,25 @@ if (isNaN(numberofCharacters)===true){
 // use if true
 // lower case letters
 useLowerCaseLetters = confirm("Do you want to include lowercase letters");
-if(useLowerCaseLetters===true) {}
+if(useLowerCaseLetters===true) {
 choices = choices.concat(lower)
 }
 // use uppercase letters
 useUpperCaseLetters = confirm("Do you want to include uppercase letters");
 if(useUpperCaseLetters===true) {
-  choices.concat(upper)
+choices = choices.concat(upper)
 }
 // use numbers
 useNumbers = confirm ("Do you want to incliude numbers?");
 if(useNumbers===true) {
-  choices.concat(upper)
+choices = choices.concat(numbers)
 }
 // use special characters
-
+useSpecialCharacters = confirm ("Do you want to include special characters?");
+if(useSpecialCharacters===true) {
+choices = choices.concat(upper)
+}
+};
 // use for loop
 
 // use math random
