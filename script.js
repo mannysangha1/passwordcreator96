@@ -21,18 +21,24 @@ if (isNaN(numberofCharacters)===true){
   alert("You must enter a numeric value")
 } else if (numberofCharacters < 8 || numberofCharacters > 142) {
   alert("You must enter a numeric value between 8 and 142")
-} else{}
+} else{
 // confirm it
 // use if true
 // lower case letters
 useLowerCaseLetters = confirm("Do you want to include lowercase letters");
 if(useLowerCaseLetters===true) {}
 choices = choices.concat(lower)
-
+}
 // use uppercase letters
-
+useUpperCaseLetters = confirm("Do you want to include uppercase letters");
+if(useUpperCaseLetters===true) {
+  choices.concat(upper)
+}
 // use numbers
-
+useNumbers = confirm ("Do you want to incliude numbers?");
+if(useNumbers===true) {
+  choices.concat(upper)
+}
 // use special characters
 
 // use for loop
