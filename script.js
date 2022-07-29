@@ -23,11 +23,12 @@ if (isNaN(numberofCharacters)===true){
   alert("You must enter a numeric value between 8 and 142")
 } else{}
 // confirm it
-
 // use if true
-
 // lower case letters
-useLowerCaseLetters = confirm
+useLowerCaseLetters = confirm("Do you want to include lowercase letters");
+if(useLowerCaseLetters===true) {}
+choices = choices.concat(lower)
+
 // use uppercase letters
 
 // use numbers
